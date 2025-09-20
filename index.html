@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">TravelBloom</div>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" id="destination-input" placeholder="Enter a country...">
+            <button id="btn-search">Search</button>
+        </div>
+    </nav>
+
+    <header class="home-header">
+        <h1>Welcome to TravelBloom</h1>
+        <p>Your ultimate guide to discovering the world's most breathtaking destinations. Plan your dream vacation with our curated recommendations.</p>
+        <button id="btn-recommendations">Get Recommendations</button>
+    </header>
+
+    <main id="recommendation-section" class="hidden">
+        <h2>Our Top Recommendations</h2>
+        <div class="recommendation-grid">
+            <div class="card">
+                <h3>Beaches</h3>
+                <img src="https://images.unsplash.com/photo-1507525428034-b723a9ce6890?w=500" alt="Sunny beach with turquoise water">
+                <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=500" alt="Sunset over a calm beach">
+                <p>Relax on pristine sands and enjoy crystal-clear waters at the world's best beaches.</p>
+            </div>
+            <div class="card">
+                <h3>Temples</h3>
+                <img src="https://images.unsplash.com/photo-1534607287018-1c3a6163a8a9?w=500" alt="Ancient stone temple">
+                <img src="https://images.unsplash.com/photo-1594228803419-8406181f585d?w=500" alt="Ornate temple in Asia">
+                <p>Explore ancient temples and discover spiritual tranquility and architectural marvels.</p>
+            </div>
+        </div>
+        <button id="btn-clear">Clear Recommendations</button>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
